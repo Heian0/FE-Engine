@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c074dbb5e88c6e649969846adf7a5656, type: 3}
+  m_Name: EnemyThief
+  m_EditorClassIdentifier: 
+  name: Enemy Thief
+  unitGameObject: {fileID: 5628372247226436345, guid: 62d75f2a657ac79409395213f6cde56d, type: 3}
+  gameObjectIndex: 3
+  target: {fileID: 11400000, guid: 0481dbe5d771a4144bf1846388bf1413, type: 2}
+  unitInventory: {fileID: 11400000, guid: cabb0cfb42bd0694083711f5a8b5f395, type: 2}
+  unitSkillset: {fileID: 11400000, guid: 689db4ef51bd7e1488e78a16c3497040, type: 2}
+  unitAbilityset: {fileID: 0}
+  recAtkType: 0
+  side: Enemy
+  AIType: 1
+  unitClass: Thief
+  unitType: Vanguard
+  airUnit: 0
+  canAtkAir: 0
+  attackType: 0
+  lvl: 5
+  maxHp: 17
+  hp: 17
+  baseAttack: 11
+  attack: 11
+  baseDefense: 11
+  defense: 11
+  baseMagic: 3
+  magic: 3
+  baseResistance: 6
+  resistance: 6
+  baseSpeed: 16
+  speed: 16
+  baseMovementRange: 4
+  movementRange: 4
+  attackRange: 1

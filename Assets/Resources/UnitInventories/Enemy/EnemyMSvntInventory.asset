@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f92a1ee7fe2b2a4084ef1bc4042ac7a, type: 3}
+  m_Name: EnemyMSvntInventory
+  m_EditorClassIdentifier: 
+  equippedWeapon: {fileID: 11400000, guid: 8d547fc514ff440478dc960300d3074e, type: 2}
+  secondaryWeapon: {fileID: 0}
+  weaponsList:
+  - {fileID: 11400000, guid: 8d547fc514ff440478dc960300d3074e, type: 2}
+  equippedMagic: {fileID: 11400000, guid: 441cbd8a123708b4c887fd8c79098d95, type: 2}
+  secondaryMagic: {fileID: 0}
+  magicList:
+  - {fileID: 11400000, guid: 441cbd8a123708b4c887fd8c79098d95, type: 2}

@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c074dbb5e88c6e649969846adf7a5656, type: 3}
+  m_Name: EnemyArcher
+  m_EditorClassIdentifier: 
+  name: Enemy Archer
+  unitGameObject: {fileID: 2604862433637476859, guid: 0b58aa9f6305a42449f735988242cac2, type: 3}
+  gameObjectIndex: 4
+  target: {fileID: 11400000, guid: 53daaccf18c31d145b2632282bd62c6b, type: 2}
+  unitInventory: {fileID: 11400000, guid: 32b640764dc88874c8034d4511152409, type: 2}
+  unitSkillset: {fileID: 11400000, guid: 528ee2833fe42d34f8ed6794f50f019b, type: 2}
+  unitAbilityset: {fileID: 0}
+  recAtkType: 0
+  side: Enemy
+  AIType: 1
+  unitClass: Archer
+  unitType: Ranger
+  airUnit: 0
+  canAtkAir: 0
+  attackType: 0
+  lvl: 5
+  maxHp: 16
+  hp: 16
+  baseAttack: 10
+  attack: 10
+  baseDefense: 11
+  defense: 11
+  baseMagic: 3
+  magic: 3
+  baseResistance: 10
+  resistance: 10
+  baseSpeed: 13
+  speed: 13
+  baseMovementRange: 5
+  movementRange: 5
+  attackRange: 1

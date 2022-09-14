@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c074dbb5e88c6e649969846adf7a5656, type: 3}
+  m_Name: None
+  m_EditorClassIdentifier: 
+  name: None
+  unitGameObject: {fileID: 0}
+  gameObjectIndex: 99
+  target: {fileID: 0}
+  unitInventory: {fileID: 0}
+  unitSkillset: {fileID: 0}
+  unitAbilityset: {fileID: 0}
+  side: None
+  unitClass: None
+  unitType: None
+  airUnit: 0
+  canAtkAir: 0
+  attackType: 0
+  lvl: 0
+  maxHp: 1
+  hp: 1
+  baseAttack: 0
+  attack: 0
+  baseDefense: 0
+  defense: 0
+  baseMagic: 0
+  magic: 0
+  baseResistance: 0
+  resistance: 0
+  baseSpeed: 0
+  speed: 0
+  baseMovementRange: 0
+  movementRange: 0
+  attackRange: 0

@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c074dbb5e88c6e649969846adf7a5656, type: 3}
+  m_Name: EnemyMSvnt
+  m_EditorClassIdentifier: 
+  name: Enemy Mortal Savant
+  unitGameObject: {fileID: 4047078227058782543, guid: 7b73334afbed8d4438c14692c5544ac1, type: 3}
+  gameObjectIndex: 5
+  target: {fileID: 11400000, guid: f144fc614e979f745b30a28a85e84d49, type: 2}
+  unitInventory: {fileID: 11400000, guid: e0f3303a434ff11479143b846509f138, type: 2}
+  unitSkillset: {fileID: 11400000, guid: f3252d5208dfa97488333ada1a3c4fdc, type: 2}
+  unitAbilityset: {fileID: 11400000, guid: cd5815db8d031e144b2913843d5da668, type: 2}
+  recAtkType: 0
+  side: Enemy
+  AIType: 0
+  unitClass: Mortal Savant
+  unitType: Vanguard
+  airUnit: 0
+  canAtkAir: 0
+  attackType: 0
+  lvl: 7
+  maxHp: 30
+  hp: 30
+  baseAttack: 14
+  attack: 14
+  baseDefense: 12
+  defense: 12
+  baseMagic: 15
+  magic: 15
+  baseResistance: 14
+  resistance: 14
+  baseSpeed: 16
+  speed: 16
+  baseMovementRange: 6
+  movementRange: 6
+  attackRange: 1

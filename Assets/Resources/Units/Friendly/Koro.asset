@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c074dbb5e88c6e649969846adf7a5656, type: 3}
+  m_Name: Koro
+  m_EditorClassIdentifier: 
+  name: Koro
+  unitGameObject: {fileID: 3577250417858932886, guid: d0b0097293632cc44afd2a13a51ba2c8, type: 3}
+  gameObjectIndex: 1
+  target: {fileID: 0}
+  unitInventory: {fileID: 11400000, guid: 1e5fde4c8483fcf4d8df3dea67988287, type: 2}
+  unitSkillset: {fileID: 11400000, guid: 796751d87dfcad54799d944a962c0f15, type: 2}
+  unitAbilityset: {fileID: 11400000, guid: 60448ac776b544c4c954749c136f8a82, type: 2}
+  recAtkType: 0
+  side: Friendly
+  AIType: 0
+  unitClass: Sniper
+  unitType: Ranger
+  airUnit: 0
+  canAtkAir: 0
+  attackType: 0
+  lvl: 5
+  maxHp: 18
+  hp: 18
+  baseAttack: 13
+  attack: 13
+  baseDefense: 9
+  defense: 9
+  baseMagic: 7
+  magic: 7
+  baseResistance: 8
+  resistance: 8
+  baseSpeed: 17
+  speed: 17
+  baseMovementRange: 6
+  movementRange: 6
+  attackRange: 1
