@@ -30,18 +30,28 @@ This is a turn-based strategy game framework based on Fire Emblem. Made with Uni
 - Now, let've move our cursor over the enemy unit and hit A to select that unit to attack. We are now taken to the attack view, where can select a weapon attack, a skill attack, or an offensive ability (provided the unit has one). Furthermore, if we change our mind at any point before we attack, we can hit S to return to the previous action, all the way back to selecting a unit to take action with.
 ![Attacking Red View](Assets/Images/Readme/ss8.PNG)
 - Let's select the weapon attack.
+[Attacking Red Weapon View](Assets/Images/Readme/ss9.PNG)
+- Now we must select a weapon to attack with. Let's hit 1 for Damascus. Each unit has different weapons, and different classes have access to only certain weapons. For example, Archers cannot wield weapons of the Sword class.
 - Damage is done to the enemy, and damage is taken by Red. These values are calculated based on unit stats, weapon stats, and attack stats. Some weapons deal major damage to specific units, e.g. bow type weapons to Flying units as previously mentioned.
+[Attacking Red Damage Done](Assets/Images/Readme/ss10.PNG)
 - Which unit attacks first is dependent on speed. Some Skills allow a unit to move first regardless of speed.
 # Attacking More Enemy Units
 - After we have made our attack, the game returns us to the map view. As you can see, health bars have now been modified.
+[Map view after attack](Assets/Images/Readme/ss11.PNG)
 - Let's use Purple to attack another unit.
 - As you can see, Purple has a much greater attack range than Red.
+[Purple attack](Assets/Images/Readme/ss16.PNG)
+[Purple attack](Assets/Images/Readme/ss12.PNG)
 - Lastly, let's mobilize Turquoise, fly over the Wall tiles, and attack an enemy unit.
+[Turqouise attack](Assets/Images/Readme/ss13.PNG)
 # Enemy Turn
-- After we have moved all out units, it is now the enemy's turn (CPU) to move.
+- After we have moved all our units, it is now the enemy's turn (CPU) to move. Click F to advace to Enemy Turn.
 - Enemy units will automatically move and attack our units based on an algorithm that finds their optimal move, taking in account of their health, location, location of other enemy units, their class advantages/disadvantages.
-- The enemy fighing Red re-engages.
-- The enemey fighting Turquoise also re-engages because it is certain he will die the next turn, even if he tries to run do to Turquoise's mobility, so his best move is to deal as much damage as possible before perishing. A sad fate.
+- The enemy fighing Red re-engages, and we can once again select our method of attack.
+[Enemy Re-engages](Assets/Images/Readme/ss14.PNG)
+- The enemy fighting Turquoise also re-engages because it is certain he will die the next turn, even if he tries to run do to Turquoise's mobility, so his best move is to deal as much damage as possible before perishing. A sad fate.
+[Enemy Re-engages Turq](Assets/Images/Readme/ss15.PNG)
+- The last enemy takes no move, as he is set to "Passive" status, meaning to route this enemy we must engage first.
 - After the enemy has taken their moves, the player can now move again.
 - The cycle repeats until all units on one side have been routed.
 # Parameters
