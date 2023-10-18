@@ -8,11 +8,12 @@ This is a turn-based strategy game framework based on Fire Emblem. Made with Uni
 ![Select Red](Assets/Images/Readme/ss2.PNG)
 - These tiles are where our red unit can traverse.
 - Similarily, if we select Purple,
-- ![Select Red](Assets/Images/Readme/ss3.PNG)
+![Select Purple](Assets/Images/Readme/ss3.PNG)
 - Or turquoise,
-- ![Select Red](Assets/Images/Readme/ss4.PNG)
+![Select Turquoise](Assets/Images/Readme/ss4.PNG)
 - Blue tiles light up on the map. As shown, each unit has differing moblity based on their class.
-- Furthermore, the terrain on the map affects each unit as well. Open grass (light green tiles) cost only 1 movement points, but dark green tiles (forests) cost 2.
+- Furthermore, the terrain on the map affects each unit as well. Open grass (light green tiles) cost only 1 movement points, but dark green tiles (forests) cost 2, as shown below (Red has 3 movement points).
+![Forest Tiles](Assets/Images/Readme/ss11.PNG)
 - Wall/Barrier tiles (grey) are impassable by land units, and in essence cost 99 movement points (no unit has that many).
 - However, flying units, such as Turquoise (Pegasus Knight) are unaffected completely by Wall/Barrier tiles. Flying units also boast extreme mobility, but are balanced out by a severe weakness to Archer units.
 - The tiles that light up are computed by a variant of the A* pathfinding algorithm, which takes in unit class (to calculate movement points and land/air type) and values representing the different tiles on the map.
@@ -20,13 +21,15 @@ This is a turn-based strategy game framework based on Fire Emblem. Made with Uni
 - The Purple unit (Archer) has much more moblity, but lacks defensive capability.
 # Attacking Enemy Units
 - Let's move red up close to an enemy unit (Black), and hit A (to confirm position/view available actions at a tile for a specific unit).
+![Attacking Red](Assets/Images/Readme/ss5.PNG)
 - Player UI pops up, and we can see we now have four actions: Attack, Wait, Items, and Abilities.
-- Furthermore, new tiles light up blue. This is our attack range for Red, which is only 1 tile as he is a swordsman. (If no enemies were in our range of attack, which differs from unit to unit, the Attack button would not be an option).
 - Wait means that we want the unit to take no action. It is often selected when mocing units to safety. Selecting Items allows you to use items that heal your units, or place a temporary buff on them.
 - Lastly, Abilities are actions unique to each unit. Some are attacks that deal large damage or splash damage, and other ablities include high level buffs.
-- Let's select attack for now.
-- We are now taken to the attack view, where can select a basic attack, a skill attack, or an offensive ability (provided the unit has one).
-- Let's select attack.
+- Let's select attack for now. New tiles light up blue. This is our attack range for Red, which is only 1 tile as he is a swordsman. (If no enemies were in our range of attack, which differs from unit to unit, the Attack button would not be an option).
+![Attacking Red Tiles](Assets/Images/Readme/ss6.PNG)
+- Now, let've move our cursor over the enemy unit and hit A to select that unit to attack. We are now taken to the attack view, where can select a weapon attack, a skill attack, or an offensive ability (provided the unit has one). Furthermore, if we change our mind at any point before we attack, we can hit S to return to the previous action, all the way back to selecting a unit to take action with.
+![Attacking Red View](Assets/Images/Readme/ss8.PNG)
+- Let's select the weapon attack.
 - Damage is done to the enemy, and damage is taken by Red. These values are calculated based on unit stats, weapon stats, and attack stats. Some weapons deal major damage to specific units, e.g. bow type weapons to Flying units as previously mentioned.
 - Which unit attacks first is dependent on speed. Some Skills allow a unit to move first regardless of speed.
 # Attacking More Enemy Units
