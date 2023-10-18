@@ -13,7 +13,7 @@ This is a turn-based strategy game framework based on Fire Emblem. Made with Uni
 ![Select Turquoise](Assets/Images/Readme/ss4.PNG)
 - Blue tiles light up on the map. As shown, each unit has differing moblity based on their class.
 - Furthermore, the terrain on the map affects each unit as well. Open grass (light green tiles) cost only 1 movement points, but dark green tiles (forests) cost 2, as shown below (Red has 3 movement points).
-![Forest Tiles](Assets/Images/Readme/ss11.PNG)
+![Forest Tiles](Assets/Images/Readme/ss17.PNG)
 - Wall/Barrier tiles (grey) are impassable by land units, and in essence cost 99 movement points (no unit has that many).
 - However, flying units, such as Turquoise (Pegasus Knight) are unaffected completely by Wall/Barrier tiles. Flying units also boast extreme mobility, but are balanced out by a severe weakness to Archer units.
 - The tiles that light up are computed by a variant of the A* pathfinding algorithm, which takes in unit class (to calculate movement points and land/air type) and values representing the different tiles on the map.
