@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class GameStateManager : MonoBehaviour
-{
+{   
     GameBaseState currState;
 
     public TurnStart turnStart = new TurnStart();

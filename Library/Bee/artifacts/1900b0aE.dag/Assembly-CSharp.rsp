@@ -355,6 +355,7 @@
 "Assets/Scripts/Attack/ViewAbility.cs"
 "Assets/Scripts/Attack/ViewAttack.cs"
 "Assets/Scripts/Attack/ViewSkill.cs"
+"Assets/Scripts/GameState/CamBaseState.cs"
 "Assets/Scripts/GameState/EnemyTurn.cs"
 "Assets/Scripts/GameState/GameBaseState.cs"
 "Assets/Scripts/GameState/GameStateManager.cs"
