@@ -33,7 +33,7 @@ This is a turn-based strategy game framework based on Fire Emblem. Made with Uni
 ![Attacking Red Weapon View](Assets/Images/Readme/ss9.PNG)
 - Now we must select a weapon to attack with. Let's hit 1 for Damascus. Each unit has different weapons, and different classes have access to only certain weapons. For example, Archers cannot wield weapons of the Sword class.
 - Damage is done to the enemy, and damage is taken by Red. These values are calculated based on unit stats, weapon stats, and attack stats. Some weapons deal major damage to specific units, e.g. bow type weapons to Flying units as previously mentioned.
-1[Attacking Red Damage Done](Assets/Images/Readme/ss10.PNG)
+![Attacking Red Damage Done](Assets/Images/Readme/ss10.PNG)
 - Which unit attacks first is dependent on speed. Some Skills allow a unit to move first regardless of speed.
 # Attacking More Enemy Units
 - After we have made our attack, the game returns us to the map view. As you can see, health bars have now been modified.
