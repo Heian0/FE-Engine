@@ -1,8 +1,9 @@
 ## FE-Engine
 This is a turn-based strategy game framework based on Fire Emblem. Made with Unity and C#.
 # Player Turn
-- On your turn, you take action by moving your units, either to attack or to move to safer position.
+- On your turn, you take action by moving your units, either to attack or to move to a safer position.
 - In this example, there are three units: Red (Swordfighter), Purple (Archer) and Turquoise (Pegasus Knight).
+![open map](Assets/Images/Readme/ss1.PNG)
 - If we hover the cursor (controlled by arrow keys) over Red and hit the A key (select), tiles on the map light up blue.
 - These tiles are where our red unit can traverse.
 - Similarily, if we select Purple,
