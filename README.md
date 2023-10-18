@@ -5,9 +5,12 @@ This is a turn-based strategy game framework based on Fire Emblem. Made with Uni
 - In this example, there are three units: Red (Swordfighter), Purple (Archer) and Turquoise (Pegasus Knight).
 ![open map](Assets/Images/Readme/ss1.PNG)
 - If we hover the cursor (controlled by arrow keys) over Red and hit the A key (select), tiles on the map light up blue.
+![Select Red](Assets/Images/Readme/ss2.PNG)
 - These tiles are where our red unit can traverse.
 - Similarily, if we select Purple,
+- ![Select Red](Assets/Images/Readme/ss3.PNG)
 - Or turquoise,
+- ![Select Red](Assets/Images/Readme/ss4.PNG)
 - Blue tiles light up on the map. As shown, each unit has differing moblity based on their class.
 - Furthermore, the terrain on the map affects each unit as well. Open grass (light green tiles) cost only 1 movement points, but dark green tiles (forests) cost 2.
 - Wall/Barrier tiles (grey) are impassable by land units, and in essence cost 99 movement points (no unit has that many).
