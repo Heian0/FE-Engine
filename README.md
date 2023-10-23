@@ -23,7 +23,7 @@ This is a turn-based strategy game framework based on Fire Emblem. Made with Uni
 - Let's move red up close to an enemy unit (Black), and hit A (to confirm position/view available actions at a tile for a specific unit).
 ![Attacking Red](Assets/Images/Readme/ss5.PNG)
 - Player UI pops up, and we can see we now have four actions: Attack, Wait, Items, and Abilities.
-- Wait means that we want the unit to take no action. It is often selected when mocing units to safety. Selecting Items allows you to use items that heal your units, or place a temporary buff on them.
+- Wait means that we want the unit to take no action. It is often selected when moving units to safety. Selecting Items allows you to use items that heal your units, or place a temporary buff on them.
 - Lastly, Abilities are actions unique to each unit. Some are attacks that deal large damage or splash damage, and other ablities include high level buffs.
 - Let's select attack for now. New tiles light up blue. This is our attack range for Red, which is only 1 tile as he is a swordsman. (If no enemies were in our range of attack, which differs from unit to unit, the Attack button would not be an option).
 ![Attacking Red Tiles](Assets/Images/Readme/ss6.PNG)
